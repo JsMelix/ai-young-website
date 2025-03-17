@@ -6,8 +6,8 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
 } from "../../../../components/ui/navigation-menu";
-// Import the logo directly
-import logoImage from "../../../public/ai-logo.jpg";
+// Remove the incorrect import
+// import logoImage from "../../../public/ai-logo.jpg";
 
 export const HeaderSection = (): JSX.Element => {
   // Navigation menu items data
@@ -28,7 +28,7 @@ export const HeaderSection = (): JSX.Element => {
         <img 
           className="h-10 w-auto object-contain" 
           alt="AI Young Hub Logo" 
-          src={logoImage} 
+          src="/ai-logo.jpg" 
         />
       </div>
 
