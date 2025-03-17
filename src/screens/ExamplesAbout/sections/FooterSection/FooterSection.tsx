@@ -51,7 +51,7 @@ export const FooterSection = (): JSX.Element => {
     <footer className="flex flex-wrap w-full max-w-[1200px] items-start gap-4 pt-8 pb-40 px-8 bg-white border-t border-[#d9d9d9]">
       {/* Logo and social media column */}
       <div className="flex flex-col w-[262px] items-start gap-6">
-        <img className="relative" alt="Figma" src="public/ai-logo.svg" />
+        <img className="relative" alt="Figma" src="/ai-logo.jpg" />
 
         <div className="flex items-center gap-4">
           <TwitterIcon className="w-6 h-6 text-[#1e1e1e]" />
