@@ -28,7 +28,7 @@ export const HeaderSection = (): JSX.Element => {
         <img 
           className="h-10 w-auto object-contain" 
           alt="AI Young Hub Logo" 
-          src="/ai-logo.jpg" 
+          src="https://imgur.com/pmr61nN" 
         />
       </div>
 
